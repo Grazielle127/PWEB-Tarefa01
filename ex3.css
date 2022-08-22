@@ -1,0 +1,47 @@
+#section1 {
+    margin-bottom: 10px;
+  }
+  .main {
+    width: 30rem;
+    height: 30rem;
+    padding: 20px;
+    background: #ccc;
+  }
+
+  .inline-flex {
+    display: flex;
+  }
+
+  .purple {
+    background: #639;
+  }
+
+  .blue {
+    background: blue;
+  }
+
+  .green {
+    background: green;
+  }
+
+  .size-lg {
+    width: calc(15rem - 5px);
+    height: calc(15rem - 5px);
+  }
+
+  .size-sm {
+    width: calc(7.5rem - 5px);
+    height: calc(7.5rem - 5px);
+  }
+
+  .mr-5 {
+    margin-right: 5px;
+  }
+
+  .mb-5 {
+    margin-bottom: 5px;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }

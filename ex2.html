@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="ex2.css" type="text/css" rel="stylesheet" />
+    <title>Document</title>
+
+    
+    </style>
+  </head>
+  <body>
+    <section class="main">
+      <!-- criei a divisão do verde -->
+      <!-- como ele ocupa uma linha toda, não rpecisa ser flex -->
+      <div class="green size mb-10">
+        <span>2</span>
+      </div>
+
+      <!-- segunda divisão precisar ser flex pra juntar as 2 divs -->
+      <div class="flex mb-10">
+        <!-- 2 divs dentro de um display flex ele agrupa -->
+        <div class="red size-2 mr-5">
+          <span>1</span>
+        </div>
+        <div class="pink size-2 ml-5">
+          <span>3</span>
+        </div>
+      </div>
+
+      <!-- mesma funçao do verde -->
+      <div class="blue size mb-10">
+        <span>4a</span>
+      </div>
+      <!-- mesma funçao  do verde -->
+      <div class="blue size">
+        <span>4b</span>
+      </div>
+    </section>
+  </body>
+</html>

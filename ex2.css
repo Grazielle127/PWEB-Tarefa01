@@ -1,0 +1,47 @@
+
+      .main {
+        max-width: 400px;
+        background: #ccc;
+        padding: 20px 10px;
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      .size {
+        width: 100%;
+        height: 50px;
+      }
+
+      .size-2 {
+        width: 50%;
+        height: 100px;
+      }
+
+      .red {
+        background: red;
+      }
+
+      .green {
+        background: greenyellow;
+      }
+
+      .pink {
+        background: pink;
+      }
+
+      .blue {
+        background: blue;
+      }
+
+      .mb-10 {
+        margin-bottom: 10px;
+      }
+
+      .mr-5 {
+        margin-right: 5px;
+      }
+      .ml-5 {
+        margin-left: 5px;
+      }
