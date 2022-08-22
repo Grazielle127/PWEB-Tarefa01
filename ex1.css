@@ -1,0 +1,51 @@
+.main {
+    padding: 20px;
+    display: inline-flex;
+    background-color: lightgrey;
+  }
+
+  .a {
+    width: 20rem;
+    height: 20rem;
+    margin-right: 20px;
+    background-color: RGB(255, 118, 118);
+  }
+
+  .b {
+    width: 100%;
+    margin-bottom: 20px;
+    height: calc(10rem - 10px);
+    background-color: RGB(194, 255, 118);
+  }
+
+  .c {
+    width: 200px;
+    height: 100%;
+    margin-right: 20px;
+    background-color: RGB(255, 155, 247);
+  }
+
+  .d,
+  .e {
+    width: 200px;
+    height: calc(5rem - 10px);
+    background-color: RGB(155, 164, 255);
+  }
+
+  .d {
+    margin-bottom: 10px;
+  }
+
+  .e {
+    margin-top: 10px;
+  }
+
+  .third {
+    width: 100%;
+    margin-top: 20px;
+    height: calc(10rem - 10px);
+  }
+
+  .d-flex {
+    display: flex;
+  }
